@@ -8,11 +8,11 @@ public class Exercise2 {
 
         // Use ReactiveSources.intNumbersFlux() and ReactiveSources.userFlux()
 
-        System.out.println("Print all numbers in the ReactiveSources.intNumbersFlux stream");
+        // Print all numbers in the ReactiveSources.intNumbersFlux stream
         ReactiveSources.intNumbersFlux()
                        .subscribe(System.out::println);
 
-        System.out.println("Print all users in the ReactiveSources.userFlux stream");
+        // Print all users in the ReactiveSources.userFlux stream
         ReactiveSources.userFlux()
                        .subscribe(System.out::println);
 
